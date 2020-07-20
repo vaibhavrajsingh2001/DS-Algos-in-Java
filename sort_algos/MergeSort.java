@@ -58,7 +58,7 @@ public class MergeSort {
          * here we copy leftover elems in left partition to input array, since we missed
          * to copy them to temp inside the while loop above and since their position has
          * essentially been changed, we need to explicitly add them. Take the leftover
-         * elems and coppy them to input arr right after leaving enough space for temp
+         * elems and copy them to input arr right after leaving enough space for temp
          * array to be added i.e. tempIndex spaces
          */
         System.arraycopy(input, i, input, first + tempIndex, middle - i);
